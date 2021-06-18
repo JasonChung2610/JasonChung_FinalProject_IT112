@@ -2,7 +2,7 @@ from django.test import TestCase
 from django.contrib.auth.models import User
 from .models import TaskList, TaskDetail, TaskCreate, TaskUpdate, DeleteView, CustomLoginView, RegisterPage
 import datetime
-from .forms import MeetingForm
+from .forms import PositionForm
 from django.urls import reverse_lazy, reverse
 
 # Create your tests here.
